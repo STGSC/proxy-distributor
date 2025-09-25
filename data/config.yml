@@ -1,0 +1,27 @@
+listen:
+    http: :8080
+auth:
+    oidc:
+        tenant_id: ""
+        client_id: ""
+        client_secret: ""
+        redirect_url: ""
+    session:
+        cookie_name: sid
+        secret: your-32-byte-secret-key-here-change-me
+export:
+    cache_ttl_seconds: 180
+limits:
+    default_rpm: 30
+log:
+    level: info
+    format: json
+azure:
+    tenant_id: ""
+    client_id: ""
+    client_secret: ""
+    group_ids: []
+    sync_interval: 24h
+    enabled: false
+server:
+    base_url: http://localhost:8080

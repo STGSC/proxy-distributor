@@ -1,0 +1,26 @@
+[
+  {
+    "id": "admin",
+    "name": "管理员",
+    "collections": [],
+    "permissions": [
+      "manage_providers",
+      "manage_collections",
+      "manage_users",
+      "generate_subscriptions",
+      "view_audit_logs"
+    ],
+    "created_at": "2025-09-25T09:47:49.9365702+08:00",
+    "updated_at": "2025-09-25T09:47:49.9365702+08:00"
+  },
+  {
+    "id": "user",
+    "name": "普通用户",
+    "collections": [],
+    "permissions": [
+      "copy_subscription_links"
+    ],
+    "created_at": "2025-09-25T09:47:49.9365702+08:00",
+    "updated_at": "2025-09-25T09:47:49.9365702+08:00"
+  }
+]
