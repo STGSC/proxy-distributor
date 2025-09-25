@@ -29,7 +29,7 @@
 1. **下载预编译版本**
    ```powershell
    # 使用 PowerShell 下载
-   Invoke-WebRequest -Uri "https://github.com/your-repo/proxy-distributor/releases/latest/download/proxy-distributor-windows-amd64.exe" -OutFile "proxy-distributor.exe"
+   Invoke-WebRequest -Uri "https://github.com/STGSC/proxy-distributor/releases/latest/download/proxy-distributor-windows-amd64.exe" -OutFile "proxy-distributor.exe"
    ```
 
 2. **运行程序**
@@ -43,7 +43,7 @@
 1. **下载预编译版本**
    ```bash
    # 下载最新版本
-   wget https://github.com/your-repo/proxy-distributor/releases/latest/download/proxy-distributor-linux-amd64 -O proxy-distributor
+   wget https://github.com/STGSC/proxy-distributor/releases/latest/download/proxy-distributor-linux-amd64 -O proxy-distributor
    
    # 添加执行权限
    chmod +x proxy-distributor
@@ -66,7 +66,7 @@
 2. **克隆并编译**
    ```cmd
    # 克隆项目
-   git clone https://github.com/your-repo/proxy-distributor.git
+   git clone https://github.com/STGSC/proxy-distributor.git
    cd proxy-distributor
    
    # 编译 Windows 版本
@@ -97,7 +97,7 @@
 2. **克隆并编译**
    ```bash
    # 克隆项目
-   git clone https://github.com/your-repo/proxy-distributor.git
+   git clone https://github.com/STGSC/proxy-distributor.git
    cd proxy-distributor
    
    # 编译 Linux 版本
@@ -683,9 +683,10 @@ MIT License
 如果您遇到问题或有任何疑问，请：
 
 1. 查看本文档的故障排除部分
-2. 检查 [Issues](https://github.com/your-repo/proxy-distributor/issues)
+2. 检查 [Issues](https://github.com/STGSC/proxy-distributor/issues)
 3. 创建新的 Issue 描述您的问题
 
 ---
 
 **注意**: 请确保在生产环境中使用前，仔细阅读安全建议部分，并正确配置所有安全设置。
+
